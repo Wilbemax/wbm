@@ -1,0 +1,24 @@
+.header{
+    background-image: url("../../assets/Section.png");
+    background-position: right 0px top;
+    background-repeat: no-repeat;
+    height: 779px;
+    color: #fff;
+}
+.wrapper{
+    display: flex;
+    padding:230px 320px  0 320px  
+}
+.info{
+    width: 630px;
+}
+.title{
+    font-size: 56px;
+    color:linear-gradient(180deg, rgba(217,217,217,1) 37%, rgba(0,0,0,1) 100%);
+    font-weight: bold;
+    width: 539px;
+}
+.card{
+    height: 100px;
+    width: 200px;
+}
