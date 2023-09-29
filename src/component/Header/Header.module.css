@@ -1,15 +1,24 @@
 .header{
     background-image: url("../../assets/Section.png");
+    background-size: 100% 100%;
     background-position: right 0px top;
     background-repeat: no-repeat;
-    height: 779px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 821px;
     color: #fff;
 }
 .wrapper{
     display: flex;
-    padding:230px 320px  0 320px  
+    justify-content: space-between;
+    width: 1280px;
+
+    
 }
 .info{
+    margin-top: 212px;
+    height: 454.5px;
     width: 630px;
 }
 .title{
@@ -19,6 +28,48 @@
     width: 539px;
 }
 .card{
-    height: 100px;
-    width: 200px;
+    width: 615.5px;
+    height: 437px;
+    
+}
+.text{
+    text-wrap: wrap;
+    margin: 20px 0 20px 0;
+    padding-right: 7rem;
+    line-height: 27px;
+    font-size: 18px;
+
+}
+.button{
+    display: flex;
+    
+}
+.button_send{
+    padding: 12px 24px 12px 24px;
+    background: #6e45e9;
+    margin-right: 16px;
+    border-radius: 50px;
+    font-size: 16px;
+    color: #fff;
+    transition: var(--transition)
+}
+.button_send:hover{
+    background: #fffffffb;
+    box-shadow: 0 0 10px #6e45e9;
+    color: #6e45e9;
+}
+.button_moreinf{
+    padding: 12px 24px 12px 24px;
+    background: #000;
+    font-size: 16px;
+    border-radius: 50px;
+    color: #ffff;
+    border: 1px solid #fff;
+    transition: var(--transition)
+}
+.button_moreinf:hover{
+    background: #6e45e9;
+    border: 1px solid #6e45e9;
+    box-shadow: 0 0 10px #fffffffb;
+    color: #fff;
 }
