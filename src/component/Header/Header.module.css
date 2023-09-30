@@ -13,23 +13,23 @@
     display: flex;
     justify-content: space-between;
     width: 1280px;
-
+    align-items: start;
+    margin-top: 110px;
     
 }
 .info{
-    margin-top: 212px;
+    margin-top: 10px;
     height: 454.5px;
     width: 630px;
 }
 .title{
     font-size: 56px;
-    color:linear-gradient(180deg, rgba(217,217,217,1) 37%, rgba(0,0,0,1) 100%);
     font-weight: bold;
     width: 539px;
 }
-.card{
-    width: 615.5px;
-    height: 437px;
+.card_img{
+   width: 630px;
+    
     
 }
 .text{

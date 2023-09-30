@@ -1,8 +1,7 @@
-import React from "react";
+import React, { forwardRef } from "react";
 import styels from "./Nav.module.css";
-import { Header } from "../Header";
 
-export const Nav = () => {
+export const Nav = forwardRef((ref) => {
   return (
     <div className={styels.Nav}>
       <div className={styels.wrapper}>
@@ -30,4 +29,4 @@ export const Nav = () => {
       </div>
     </div>
   );
-};
+})
