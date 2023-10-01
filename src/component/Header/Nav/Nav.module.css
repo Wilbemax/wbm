@@ -11,7 +11,7 @@
     display: flex;
     font-weight: 600;
     font-size: 32px;
-    
+    align-items: flex-end;
 }
 .logo_H{
     font-weight: 600;
