@@ -4,14 +4,21 @@ import { Card } from "./Card/Card";
 import bg1 from "../../../assets/bg.png";
 import bg2 from "../../../assets/bg2.png";
 import bg3 from "../../../assets/bg3.png";
+import { motion } from "framer-motion";
+import { offersTitleAnimations } from "../../animations/animations";
 
 export const Offers = () => {
   return (
-    <div className={styels.Offers}>
+    <motion.div
+      initial="hidden"
+      whileInView="visible"
+      viewport={{ amount: 0.3, once: true }}
+      className={styels.Offers}
+    >
       <div className={styels.wrapper}>
-        <div className={styels.title}>
+        <motion.div variants={offersTitleAnimations} transition={{ duration: 0.7 }}  className={styels.title}>
           Что наша комания готова вам предложить на основе ваших предпочтений{" "}
-        </div>
+        </motion.div>
         <div className={styels.wrapper_card}>
           <Card
             title="Современный дизайн"
@@ -28,9 +35,8 @@ export const Offers = () => {
             text="Предастовляем поддержку  вашему прооекту по договору."
             bg={bg3}
           />
-          
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };

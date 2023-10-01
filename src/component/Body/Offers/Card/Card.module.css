@@ -10,7 +10,8 @@
     width: 100%;
     position: absolute;
     z-index: 1;
-    top: 20%
+    top: 20%;
+    pointer-events: none;
   }
   
   .wrap{

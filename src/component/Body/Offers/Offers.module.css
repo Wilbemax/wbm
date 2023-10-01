@@ -10,8 +10,25 @@
     display: flex;
     justify-content: center;
     align-items: center;
+   
 }
 .wrapper_card{
     display: flex;
+    justify-content: space-between;
+    margin-bottom: 48px;
+    
 }
+.title{
+    text-align: center;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 67.2px;
+    background: linear-gradient(180deg, #FFF 50%, rgba(255, 255, 255, 0.66) 76%, rgba(255, 255, 255, 0.33) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 79.19px;
+}
+
 
