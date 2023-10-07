@@ -1,5 +1,6 @@
  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
  *{  
+    scroll-behavior: smooth;
   padding: 0; 
   margin: 0; 
   border: 0; 
@@ -46,3 +47,4 @@
   background: #000000;
   color: #fff;
  }
+ 

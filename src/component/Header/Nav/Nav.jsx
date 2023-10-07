@@ -14,7 +14,7 @@ export const Nav = () => {
           <a className={styels.link} href="#header">
             Главая
           </a>
-          <a className={styels.link} href="#about_us">
+          <a className={styels.link} href="#about_us" type="scroll">
             О комапании
           </a>
           <a className={styels.link} href="#reviews">

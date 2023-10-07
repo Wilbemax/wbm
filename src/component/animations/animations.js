@@ -1,7 +1,7 @@
 export const headerTextAnimations = {
     delay: 0.5,
     hidden: {
-      y: 100,
+      y: 150,
       opacity: 0,
     },
     visible: {
@@ -13,7 +13,7 @@ export const headerTextAnimations = {
   };
   export const headerCardAnimations = {
     hidden: {
-      x: 100,
+      x: 150,
       opacity: 0,
     },
     visible: {

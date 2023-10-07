@@ -1,5 +1,5 @@
 import "./App.css";
-import { Offers } from "./component/Body/Offers/Offers";
+import { Body } from "./component/Body/Body";
 import { Friend } from "./component/Header/Friend/Friend";
 import { Header } from "./component/Header/Header";
 
@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       <Header id="header " />
       <Friend/>
-      <Offers/>
+      <Body/>
     </div>
   );
 }
