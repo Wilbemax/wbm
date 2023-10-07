@@ -3,6 +3,7 @@ import { AboutT } from "./textCard/AboutT";
 import styels from "./Advantages.module.css";
 import svg1 from "../../../assets/imgB1.png";
 import svg2 from "../../../assets/imgB2.png";
+import svg3 from "../../../assets/imgB3.png";
 import { motion } from "framer-motion";
 import {
   offersCardAnimations,
@@ -88,7 +89,7 @@ export const Advantages = () => {
           transition={{ duration: 0.7 }}
           className={styels.imgBlock}
         >
-          <img src={svg1} alt="" />
+          <img src={svg3} alt="" />
         </motion.div>
       </motion.div>
     </div>
