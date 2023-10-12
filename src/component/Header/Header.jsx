@@ -12,7 +12,7 @@ export const Header = () => {
     <motion.div
       initial="hidden"
       whileInView="visible"
-      once={true}
+      viewport={{  once: true }}
       className={styels.header}
     >
       <motion.div

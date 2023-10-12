@@ -1,7 +1,9 @@
 .wrapper{
-    width: 1280px;
     display: flex;
-    justify-content: center;
+    width: 1280px;
+
+    align-items: center;
+    flex-direction: column;
     margin: 48px 0;
 }
 .title{
@@ -15,4 +17,5 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     width: 528px;
+    margin-bottom: 150px;
 }

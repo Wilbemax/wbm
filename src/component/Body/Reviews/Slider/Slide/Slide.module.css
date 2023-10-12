@@ -1,0 +1,23 @@
+.wrapper{
+    display: flex;
+    align-items: center;
+}
+.text{
+    font-size: 31.271px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 43.78px;
+    background: linear-gradient(180deg, #FFF 0%, rgba(255, 255, 255, 0.73) 62%, rgba(255, 255, 255, 0.37) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-left: 64px;
+    text-wrap: wrap;
+    max-width: 691px;
+}
+.kov{
+    margin-bottom: 3rem;
+}
+.img{
+    pointer-events: none
+}

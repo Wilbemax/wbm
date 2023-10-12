@@ -36,7 +36,7 @@ export const Advantages = () => {
           transition={{ duration: 0.7 }}
           className={styels.imgBlock}
         >
-          <img src={svg1} alt="" />
+          <img className={styels.img}src={svg1} alt="" />
         </motion.div>
       </motion.div>
       <motion.div
@@ -50,7 +50,7 @@ export const Advantages = () => {
           transition={{ duration: 0.7 }}
           className={styels.imgBlock}
         >
-          <img src={svg2} alt="" />
+          <img className={styels.img} src={svg2} alt="" />
         </motion.div>
         <motion.div
           variants={offersTitleAnimations}
@@ -89,7 +89,7 @@ export const Advantages = () => {
           transition={{ duration: 0.7 }}
           className={styels.imgBlock}
         >
-          <img src={svg3} alt="" />
+          <img className={styels.img} src={svg3} alt="" />
         </motion.div>
       </motion.div>
     </div>
