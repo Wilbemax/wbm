@@ -1,0 +1,30 @@
+.button{
+    background: #000;
+    border: rgba(255, 255, 255, 0.40) 2px solid;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-right: 20px;
+    transition: var(--transition);
+}
+.button:hover{
+    border: #fff 2px solid;
+}
+.icon{
+    color:rgba(255, 255, 255, 0.40) ;
+    font-size: 24px;
+    transition: var(--transition);
+
+}
+.icon:hover{
+    color: #fff;
+    
+
+}
+.wrapper{
+    
+    display: flex;
+    justify-content: flex-end;
+    
+}

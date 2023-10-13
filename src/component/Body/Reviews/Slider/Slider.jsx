@@ -6,8 +6,9 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Slide } from "./Slide/Slide";
 import girl1 from "../../../../assets/girl.png";
 import girl2 from "../../../../assets/wo.png";
-import man1 from "../../../../assets/men1.png"
-import man2 from "../../../../assets/64b91c8e72782f01aacc6706_Testimonial member3 1.png"
+import man1 from "../../../../assets/men1.png";
+import man2 from "../../../../assets/64b91c8e72782f01aacc6706_Testimonial member3 1.png";
+import { SwiperNavButtons } from "./SwiperNavButton/SwiperNavButton";
 
 import styels from "./Slider.module.css";
 
@@ -16,7 +17,17 @@ export const Slider = () => {
     <div className={styels.Swiper}>
       {" "}
       <Swiper
-        
+        style={{
+          "--swiper-pagination-color": "#FFFFFF",
+          "--swiper-pagination-bullet-inactive-color":
+            " rgba(255, 255, 255, 0.40)",
+          "--swiper-pagination-bullet-inactive-opacity": "0.5",
+          "--swiper-pagination-bullet-size": "14px",
+          "--swiper-pagination-bullet-horizontal-gap": "10px",
+          "--swiper-pagination-bottom": "0",
+          // "--swiper-pagination-left:": "-10px",
+          // "--swiper-pagination-right": "-11111px",
+        }}
         modules={[Navigation, Pagination, A11y]}
         pagination={true}
         slidesPerView="auto"
@@ -37,8 +48,7 @@ export const Slider = () => {
             />
           }{" "}
         </SwiperSlide>
-        <SwiperSlide
-        className={styels.Swiper}>
+        <SwiperSlide className={styels.Swiper}>
           {" "}
           {
             <Slide
@@ -47,8 +57,7 @@ export const Slider = () => {
             />
           }{" "}
         </SwiperSlide>
-        <SwiperSlide
-        className={styels.Swiper}>
+        <SwiperSlide className={styels.Swiper}>
           {" "}
           {
             <Slide
@@ -57,8 +66,7 @@ export const Slider = () => {
             />
           }{" "}
         </SwiperSlide>
-        <SwiperSlide
-        className={styels.Swiper}>
+        <SwiperSlide className={styels.Swiper}>
           {" "}
           {
             <Slide
@@ -68,7 +76,7 @@ export const Slider = () => {
           }{" "}
         </SwiperSlide>
 
-        {/* <SwiperNavButtons /> */}
+        <SwiperNavButtons />
       </Swiper>
     </div>
   );

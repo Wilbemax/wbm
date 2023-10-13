@@ -1,6 +1,7 @@
 .wrapper{
     display: flex;
     align-items: center;
+    padding: 15px 0;
 }
 .text{
     font-size: 31.271px;
