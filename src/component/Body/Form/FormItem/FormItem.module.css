@@ -1,0 +1,24 @@
+.icon{
+    color: #934CEF;
+    font-size: 22px;
+    margin-right: 16px;
+}
+.title{
+    color: #FFF;
+display: flex;
+align-items: center;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 28px; 
+}
+.text{
+font-size: 17.425px;
+font-style: normal;
+font-weight: 250;
+line-height: normal;
+max-width: 480px;
+}
+.FormItem{
+    margin: 32px 0;
+}
