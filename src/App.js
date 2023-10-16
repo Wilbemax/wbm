@@ -1,5 +1,6 @@
 import "./App.css";
 import { Body } from "./component/Body/Body";
+import { Footer } from "./component/Footer/Footer";
 import { Friend } from "./component/Header/Friend/Friend";
 import { Header } from "./component/Header/Header";
 
@@ -10,6 +11,7 @@ function App() {
       <Header id="header " />
       <Friend/>
       <Body/>
+      <Footer/>
     </div>
   );
 }

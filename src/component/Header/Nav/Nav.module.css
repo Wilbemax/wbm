@@ -4,7 +4,7 @@
     height: 92px;
     display: flex;
     align-items: center;
-   justify-content: space-between;
+    justify-content: space-between;
 
 }
 .logo{
@@ -20,6 +20,9 @@
 }
 .logo_dot{
     font-size: 16px;
+}
+.link_wrap{
+    display: flex;
 }
 .link{
     padding: 12px 24px;
