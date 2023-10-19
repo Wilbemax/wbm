@@ -8,7 +8,7 @@ import { Header } from "./component/Header/Header";
 function App() {
   return (
     <div className="App">
-      <Header id="header " />
+      <Header />
       <Friend/>
       <Body/>
       <Footer/>

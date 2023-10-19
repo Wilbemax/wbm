@@ -47,3 +47,24 @@ margin-top: 15px;
     box-shadow: 0 0 10px #fffffffb;
     color: #fff;
 }
+@media screen and (max-width: 1415px){
+    .title{
+        font-size: calc(24px + 16 * (100vw / 1280));;
+        line-height: normal;
+        text-wrap: wrap;
+    }
+    .text{
+        font-size: calc(14px + 2     * (100vw / 1280));;
+
+    }
+   .AboutT{
+    width: 512px;
+   }
+    
+}
+@media screen and (max-width: 1170px){
+    .AboutT{
+        width: 100%;
+    }
+    
+}

@@ -35,6 +35,30 @@
     font-weight: 400;
     line-height: 24px; 
  }
+ @media screen and (max-width: 1415px){
+  .Card {
+    height: 250px;
+    width: 300px;;
+    
+  }
   
+}
+@media screen and (max-width: 1170px){
+  .Card {
+    height: 220px;
+    width: 265px;
+   
+  }
+  
+}
+@media screen and (max-width: 1043px){
+  .Card {
+    
+    margin-bottom: 50px;
+width: 348.98px;
+height: 241.5px;
+  }
+  
+}
  
 

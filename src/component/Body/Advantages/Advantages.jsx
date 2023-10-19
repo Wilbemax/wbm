@@ -43,7 +43,7 @@ export const Advantages = () => {
         initial="hidden"
         whileInView="visible"
         viewport={{ amount: 0.4, once: true }}
-        className={styels.wrapper}
+        className={`${styels.wrapper} ${styels.wrapper2}`}
       >
         <motion.div
           variants={offersCardAnimations}

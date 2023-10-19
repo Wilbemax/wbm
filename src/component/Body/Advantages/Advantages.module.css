@@ -9,3 +9,34 @@
 .img{
     pointer-events: none
 }
+@media screen and (max-width: 1415px){
+   
+    .Advantages{
+       
+        width: 80%;
+        margin: 10% 10%;
+    }
+    .wrapper{
+        width: 100%;
+    }
+    
+}
+@media screen and (max-width: 1170px){
+    .wrapper{
+        flex-direction: column;
+        justify-content: none;
+        align-items: center;
+    }
+    .wrapper2{
+        flex-direction: column-reverse;
+    }
+    
+}
+@media screen and (max-width: 462px){
+    .img{
+        width: 299px;
+height: 258.94px;
+margin: 25px auto;
+    }
+    
+}

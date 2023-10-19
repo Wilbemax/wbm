@@ -33,7 +33,23 @@
 @media screen and (max-width: 1415px){
     .title{
         font-size: calc(24px + 32 * (100vw / 1280));;
+        line-height: normal;
     }
+    .Offers{
+        width: 80%;
+        margin: 10% 10%;
+    }
+    
 }
+@media screen and (max-width: 1043px){
+    .wrapper_card{
+        flex-direction: column;
+        justify-content: none;
+        align-items: center;
+    }
+    
+}
+
+
 
 
