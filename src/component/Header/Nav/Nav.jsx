@@ -11,19 +11,19 @@ export const Nav = () => {
           WBM<p className={styels.logo_dot}>.company</p>
         </div>
         <div className={styels.link_wrap}>
-          <a className={styels.link} href="#header">
+          <a className={styels.link} href="/#header">
             Главая
           </a>
-          <a className={styels.link} href="#about_us" type="scroll">
+          <a className={styels.link} href="/#why_we" >
             О комапании
           </a>
-          <a className={styels.link} href="#reviews">
+          <a className={styels.link} href="/#reviews">
             Отзывы
           </a>
-          <a className={styels.link} href="#lets_talk">
+          <a className={styels.link} href="/#lets_talk">
             Связаться
           </a>
-          <a className={styels.link} href="#contact">
+          <a className={styels.link} href="/#contact">
             Контанкты
           </a>
         </div>

@@ -41,6 +41,7 @@ export const Form = () => {
       variants={offersCardAnimations}
       transition={{ duration: 0.7 }}
       className={styels.Form}
+      id="lets_talk"
     >
       <div className={styels.wrapper}>
         <div className={styels.textBlock}>

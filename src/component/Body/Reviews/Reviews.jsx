@@ -6,7 +6,7 @@ import { offersCardAnimations } from "../../animations/animations";
 
 export const Reviews = () => {
   return (
-    <div className={styels.Reviews}>
+    <div className={styels.Reviews} id="reviews">
       <motion.div
         initial="hidden"
         whileInView="visible"

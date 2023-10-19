@@ -5,7 +5,7 @@ import { FaTelegramPlane, FaWhatsapp } from "react-icons/fa";
 
 export const Footer = () => {
   return (
-    <div className={styels.Footer}>
+    <div className={styels.Footer} id="contact">
       <div className={styels.wrapper}>
         <div className={styels.logo}>
           <p>WBM.company</p>
@@ -24,7 +24,7 @@ export const Footer = () => {
             Telegram
           </a>
           <a
-            href="https://api.whatsapp.com/send/?phone=89219292776&text=Здравствуйте%2C+у+меня+есть+вопрос"
+            href="https://api.whatsapp.com/send/?phone=79219292776&text=Здравствуйте%2C+у+меня+есть+вопрос"
             rel="noreferrer"
             target="_blank"
           >
