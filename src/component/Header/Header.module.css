@@ -22,7 +22,7 @@
     width: 630px;
 }
 .title{
-    font-size: calc(34px + 16 * (100vw / 1280));
+    font-size: 50px;
     font-weight: bold;
     width: 539px;
     background: linear-gradient(180deg, #D9D9D9 68.16%, rgba(217, 217, 217, 0.00) 107.51%);
@@ -40,7 +40,7 @@
     margin: 20px 0 20px 0;
     padding-right: 7rem;
     line-height: 27px;
-    font-size:  calc(16px + 2 * (100vw / 1280));
+    font-size:  18px;
 
 }
 .button{
@@ -52,7 +52,7 @@
     background: #6e45e9;
     margin-right: 16px;
     border-radius: 50px;
-    font-size:  calc(16px + 2 * (100vw / 1280));;
+    font-size:  16px;
     color: #fff;
     transition: var(--transition)
 }
@@ -64,7 +64,7 @@
 .button_moreinf{
     padding: 12px 24px 12px 24px;
     background: #000;
-    font-size:  calc(16px + 2 * (100vw / 1280));;
+    font-size:  16px;
     border-radius: 50px;
     color: #ffff;
     border: 1px solid #fff;
@@ -91,13 +91,19 @@
      }
      .title{
         width: 80%;
+        font-size: calc(34px + 16 * (100vw / 1280));
+     }
+     .text{
+        font-size: calc(16px + 2 * (100vw / 1280));;
      }
      .button_send{
         padding: 12px 14px 12px 14px;
+        font-size: calc(16px + 2 * (100vw / 1280));
         
     }
     .button_moreinf{
         padding: 12px 14px 12px 14px;
+        font-size: calc(16px + 2 * (100vw / 1280));;
     }
 }
 @media screen and (max-width: 1050px) {
@@ -130,4 +136,13 @@
      .title{
         width: 100%;
      }
+}
+@media screen and (max-width: 377px){
+    .button_send{
+        padding: 10px 7px 10px 7px;
+        
+    }
+    .button_moreinf{
+        padding: 10px 7px 10px 7px;
+    }
 }

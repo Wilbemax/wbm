@@ -15,7 +15,7 @@ export const Nav = () => {
             Главая
           </a>
           <a className={styels.link} href="/#why_we" >
-            О комапании
+            Почему мы
           </a>
           <a className={styels.link} href="/#reviews">
             Отзывы
