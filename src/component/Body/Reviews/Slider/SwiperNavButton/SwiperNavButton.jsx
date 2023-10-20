@@ -8,14 +8,12 @@ export const SwiperNavButtons = () => {
 
   return (
     <div className={styels.wrapper}>
-      
-        <button onClick={() => swiper.slidePrev()} className={styels.button}>
-          <IoArrowBack className={styels.icon} />
-        </button>
-        <button onClick={() => swiper.slideNext()} className={styels.button}>
-          <IoArrowForward className={styels.icon} />
-        </button>
-      
+      <div className={styels.iconBorder}onClick={() => swiper.slidePrev()}>
+        <IoArrowBack className={styels.icon} />
+      </div>
+      <div onClick={() => swiper.slideNext()}>
+       <p><IoArrowForward className={styels.icon} /></p>
+      </div>
     </div>
   );
 };

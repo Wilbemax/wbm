@@ -4,7 +4,7 @@
     padding: 15px 0;
 }
 .text{
-    font-size: 31.271px;
+    font-size: 31px;
     font-style: normal;
     font-weight: 400;
     line-height: 43.78px;
@@ -22,3 +22,26 @@
 .img{
     pointer-events: none
 }
+@media screen and (max-width: 1415px){
+    .text{
+        font-size: calc(20px + 11 * (100vw / 1280));;
+        line-height: normal;
+        margin-left: 0;
+
+    }
+    .wrapper{
+        flex-direction: column;
+    }
+
+    
+    
+} 
+@media screen and (max-width: 520px){
+    .img{
+        display: none;
+
+    }
+    
+    
+    
+} 

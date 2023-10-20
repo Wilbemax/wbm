@@ -20,3 +20,20 @@
    
     margin:0 auto 70px auto ;
 }
+@media screen and (max-width: 1415px){
+    .title{
+        font-size: calc(24px + 32 * (100vw / 1280));;
+        line-height: normal;
+        text-wrap: wrap;
+        width: 100%;
+    }
+    .wrapper{
+        width: 100%;
+        justify-content: center;
+    }
+    .Reviews{
+        width: 80%;
+        margin: 10% 10%;
+    }
+    
+} 

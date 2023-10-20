@@ -14,7 +14,7 @@ import styels from "./Slider.module.css";
 
 export const Slider = () => {
   return (
-    <div className={styels.Swiper}>
+    <div className={styels.Swiperr}>
       {" "}
       <Swiper
         style={{
@@ -23,13 +23,14 @@ export const Slider = () => {
             " rgba(255, 255, 255, 0.40)",
           "--swiper-pagination-bullet-inactive-opacity": "0.5",
           "--swiper-pagination-bullet-size": "14px",
-          "--swiper-pagination-bullet-horizontal-gap": "10px",
-          "--swiper-pagination-bottom": "0",
+          "--swiper-pagination-bullet-horizontal-gap": "19px",
+          "--swiper-pagination-bottom": "0px",
           // "--swiper-pagination-left:": "-10px",
           // "--swiper-pagination-right": "-11111px",
         }}
         modules={[Navigation, Pagination, A11y]}
         pagination={true}
+        spaceBetween={100}
         slidesPerView="auto"
       >
         <SwiperSlide className={styels.Swiper}>
