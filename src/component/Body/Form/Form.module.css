@@ -1,6 +1,7 @@
 
 .textBlock{
     max-width: 600px;
+    text-wrap: wrap;
 }
 .title{
     background: linear-gradient(180deg, #FFF 50%, rgba(255, 255, 255, 0.66) 76%, rgba(255, 255, 255, 0.33) 100%);
@@ -105,3 +106,39 @@ font-weight: 600;
 line-height: 24px;  
 margin-top: 20px;     
 }
+@media screen and (max-width: 1415px){
+    .wrapper{
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .Form{
+        width: 80%;
+        margin: 0 10%;
+    }
+    .title{
+        text-align: center;
+        margin: 0 auto;
+        font-size: calc(40px + 4 * (100vw / 1280));;
+
+        width: 100%;
+        margin-bottom: 35px;
+    }
+    .textBlock{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    
+    
+} 
+@media screen and (max-width: 630px){
+    .title{
+
+    }
+    
+    
+    
+} 

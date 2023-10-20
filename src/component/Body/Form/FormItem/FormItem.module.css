@@ -13,7 +13,7 @@ font-weight: 600;
 line-height: 28px; 
 }
 .text{
-font-size: 17.425px;
+font-size: 17px;
 font-style: normal;
 font-weight: 250;
 line-height: normal;
@@ -22,3 +22,20 @@ max-width: 480px;
 .FormItem{
     margin: 32px 0;
 }
+@media screen and (max-width: 1415px){
+    .FormItem{
+        text-align: center;
+        margin: 0 auto;
+    }
+    .title{
+        justify-content: center;
+        font-size: calc(18px + 2 * (100vw / 1280));;
+
+    }
+    .text{
+        margin: 0 auto;
+        margin-bottom: 35px;
+        font-size: calc(16px + 1 * (100vw / 1280));;
+        width: 100%;
+    }
+} 
