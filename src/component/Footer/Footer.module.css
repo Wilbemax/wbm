@@ -13,6 +13,7 @@
     
 }
 .Footer{
+    border-top: #4b4a4a 2px solid;
     padding: 40px 20px;
     display: flex;
     flex-direction: column;
@@ -20,6 +21,7 @@
  
     color: #fff;
 }
+
 .contact{
     display: flex;
     flex-direction: column;
@@ -38,4 +40,29 @@ a:hover{
 }
 .icon{
     margin-right: 10px;
+}
+@media screen and (max-width: 1415px){
+    .wrapper{
+        width: 100%;
+      margin-top: 50px;
+    }
+    .Footer{
+        width: 80%;
+        margin: 0 10%;
+        margin-top: 70px;
+    }
+    
+    
+} 
+@media screen and (max-width: 1415px){
+    .wrapper{
+        width: 100%;
+        flex-direction: column;
+
+    }
+    .logo{
+        margin-bottom: 50px;
+    }
+    
+    
 }

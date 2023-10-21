@@ -59,8 +59,7 @@ export const Form = () => {
             text="Заполниет форму и в близжайшее время с Вами свяжеться консультант"
           />
         </div>
-        <form ref={form} onSubmit={sendEmail} className={styels.formBlock}>
-          <div className={styels.form}>
+        <form ref={form} onSubmit={sendEmail} className={styels.form}>
             <div className={styels.FIO}>
               <div className={styels.inputWrapper}>
                 <p className={styels.formTitle}>Имя</p>
@@ -68,6 +67,7 @@ export const Form = () => {
                   name="user_name"
                   className={styels.input}
                   type="text"
+                  required
                   placeholder="Введите ваше имя"
                 />
               </div>
@@ -77,6 +77,7 @@ export const Form = () => {
                   name="user_seconName"
                   className={styels.input}
                   type="text"
+                  required
                   placeholder="Введите вашу фамилию"
                 />
               </div>
@@ -88,6 +89,7 @@ export const Form = () => {
                   name="user_email"
                   className={styels.input}
                   type="email"
+                  required
                   placeholder="Введите вашу почту"
                 />
               </div>
@@ -96,7 +98,7 @@ export const Form = () => {
                 <input
                   name="user_nomber"
                   className={styels.input}
-                  
+                  required
                   type="text"
                   placeholder="Введите номер телефона"
                 />
@@ -115,7 +117,6 @@ export const Form = () => {
             <button className={styels.button} type="submit">
               Отрправить заявку
             </button>
-          </div>
         </form>
       </div>
     </motion.div>

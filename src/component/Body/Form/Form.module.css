@@ -25,8 +25,8 @@
     padding: 29px 29px 44px 29px;
     flex-direction: column;
     border-radius: 14px;
-border: 1px solid #464646;  
-background: #000;
+    border: 1px solid #464646;  
+    background: #000;
 }
 .FIO{
     display: flex;
@@ -135,8 +135,18 @@ margin-top: 20px;
     
 } 
 @media screen and (max-width: 630px){
-    .title{
-
+    .FIO{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .wrapperBlock{
+        flex-direction: column;
+    }
+    .form{
+        width: 100%;
+    }
+    .input{
+        width: 100%;
     }
     
     
