@@ -33,7 +33,7 @@ export const Header = () => {
             className={styels.text}
           >
             Есть желание увеличить поток клиентов? Нам есть, что вам предложить.
-            Тчательно разберемся именно в ваших нуждах и потребностях.
+            Тщательно разберемся именно в ваших нуждах и потребностях.
           </motion.div>
           <motion.div transition={{ duration: 1.1 }} variants={headerTextAnimations} className={styels.button}>
             <button src="/#contact" className={styels.button_send}><a href="/#contact">Оставить заявку</a></button>
