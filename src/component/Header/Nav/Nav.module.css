@@ -7,11 +7,8 @@
     justify-content: space-between;
 
 }
-.logo{
-    display: flex;
-    font-weight: 600;
-    font-size: 32px;
-    align-items: flex-end;
+.logos{
+    width: 150px;
 }
 .logo_H{
     font-weight: 600;
