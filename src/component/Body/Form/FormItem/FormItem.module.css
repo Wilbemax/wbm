@@ -29,13 +29,13 @@ max-width: 480px;
     }
     .title{
         justify-content: center;
-        font-size: calc(18px + 2 * (100vw / 1280));;
+        font-size: calc(16px + 2 * (100vw / 1280));;
 
     }
     .text{
         margin: 0 auto;
         margin-bottom: 35px;
-        font-size: calc(16px + 1 * (100vw / 1280));;
+        font-size: calc(14px + 1 * (100vw / 1280));;
         width: 100%;
     }
 } 

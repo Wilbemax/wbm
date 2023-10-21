@@ -10,7 +10,7 @@ export const Reviews = () => {
       <motion.div
         initial="hidden"
         whileInView="visible"
-        viewport={{ amount: 0.3, once: true }}
+        viewport={{ amount: 0.2, once: true }}
         variants={offersCardAnimations}
           transition={{ duration: 0.7 }}
         className={styels.wrapper}

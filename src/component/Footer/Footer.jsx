@@ -11,7 +11,7 @@ export const Footer = () => {
           <p>WBM.company</p>
         </div>
         <div className={styels.contact}>
-          <a href="mailto:wbm.company@mail.ru" rel="noreferrer" target="_blank">
+          <a className={styels.a}href="mailto:wbm.company@mail.ru" rel="noreferrer" target="_blank">
             <HiOutlineMail className={styels.icon}/>
             wbm.company@mail.ru
           </a>

@@ -36,8 +36,8 @@ export const Header = () => {
             Тчательно разберемся именно в ваших нуждах и потребностях.
           </motion.div>
           <motion.div transition={{ duration: 1.1 }} variants={headerTextAnimations} className={styels.button}>
-            <button className={styels.button_send}>Оставить заявку</button>
-            <button className={styels.button_moreinf}>О комапании</button>
+            <button src="/#contact" className={styels.button_send}><a href="/#contact">Оставить заявку</a></button>
+            
           </motion.div>
         </div>
         <motion.div transition={{ duration: .7 }} variants={headerCardAnimations} className={styels.card}>
