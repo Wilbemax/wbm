@@ -24,7 +24,7 @@ export const Header = () => {
       <div className={styels.wrapper}>
         <div className={styels.info}>
           <motion.div transition={{ duration: 0.7 }} variants={headerTextAnimations} className={styels.title}>
-            Внимание к деталям - наш главнй приоритет
+            Внимание к деталям - наш главный приоритет
           </motion.div>
           <motion.div
             transition={{ duration: 0.9 }}
