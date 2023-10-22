@@ -19,7 +19,7 @@ export const AboutT = (props) => {
         
       </div>
       <button className={styels.button}>
-      <a href="/#contact">Связаться с нами</a>
+      <a href="/#lets_talk">Связаться с нами</a>
       </button>
     </div>
   );

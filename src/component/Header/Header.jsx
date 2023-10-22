@@ -36,7 +36,7 @@ export const Header = () => {
             Тщательно разберемся именно в ваших нуждах и потребностях.
           </motion.div>
           <motion.div transition={{ duration: 1.1 }} variants={headerTextAnimations} className={styels.button}>
-            <button src="/#contact" className={styels.button_send}><a href="/#contact">Оставить заявку</a></button>
+            <button  className={styels.button_send}><a href="/#lets_talk">Оставить заявку</a></button>
             
           </motion.div>
         </div>

@@ -12,7 +12,7 @@ import {
 
 export const Advantages = () => {
   return (
-    <div className={styels.Advantages} id="why_we">
+    <div className={styels.Advantages}>
       <motion.div
         initial="hidden"
         whileInView="visible"

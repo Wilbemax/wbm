@@ -14,6 +14,7 @@ export const Offers = () => {
       whileInView="visible"
       viewport={{ amount: 0.3, once: true }}
       className={styels.Offers}
+      id="why_we"
     >
       <div className={styels.wrapper}>
         <motion.div variants={offersTitleAnimations} transition={{ duration: 0.7 }}  className={styels.title}>
