@@ -13,10 +13,10 @@ export const Nav = () => {
         </div>
         <div className={styels.link_wrap}>
           <a className={styels.link} href="/#header">
-            Главая
+            Главная
           </a>
           <a className={styels.link} href="/#why_we" >
-            Почему мы
+            Почему мы?
           </a>
           <a className={styels.link} href="/#reviews">
             Отзывы
@@ -25,7 +25,7 @@ export const Nav = () => {
             Связаться
           </a>
           <a className={styels.link} href="/#contact">
-            Контанкты
+            Контакты
           </a>
         </div>
       </div>

@@ -18,7 +18,7 @@ export const Offers = () => {
     >
       <div className={styels.wrapper}>
         <motion.div variants={offersTitleAnimations} transition={{ duration: 0.7 }}  className={styels.title}>
-          Что наша компания готова вам предложить на основе ваших предпочтений{" "}
+          Что наша компания готова предложить вам на основе ваших предпочтений{" "}
         </motion.div>
         <div className={styels.wrapper_card}>
           <Card
